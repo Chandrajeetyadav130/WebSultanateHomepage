@@ -84,5 +84,23 @@
     }
     .signupDeal_claim{
         width: 100%;
+        padding-left: 0px;
     }
+}
+@media(max-width:800px){
+    .signupContent_div h1{
+        font-size: 18px;
+    }
+    .referFriendContent{
+    width: 200px;
+    }
+    .referFriendContent img{
+    width: 200px;
+    height: 182px;
+}
+.signupContent_div{
+    width: 200px;
+    padding: 10px;
+}
+
 }

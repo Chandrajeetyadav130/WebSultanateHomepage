@@ -49,3 +49,11 @@
     padding: 12px;
     border: 1px solid #111112;
 }
+@media(max-width:768px){
+    .price-dropdown select{
+        width: 80px;
+    }
+    .featuredHeader{
+        padding: 0px;
+    }
+}
