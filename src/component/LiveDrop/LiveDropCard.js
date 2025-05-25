@@ -12,7 +12,7 @@ const LiveDropCard = () => {
     <div className='liveDropMainContaier'>
       <div className='livedrpHead'>
         <MdCircle size={15} color='green'/>
-        <span className='livedrop'>Live drop</span>
+        <span className='livedrop'>Live drops</span>
       </div>
       <div className='Live_card_contaier'>
          {cardArr.map((item)=>{
