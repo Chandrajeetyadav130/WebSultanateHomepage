@@ -1,0 +1,36 @@
+:root {
+  --Shade-2: #1A1A20;
+  --bg-color: #1A1A20;
+}
+.asideContaier {
+width: 90px;
+height: 426px;
+/* top: 12px; */
+left: 12px;
+gap: 6px;
+padding: 0px 12px;
+
+}
+.asideContaier ul{
+    padding-left: 4px;
+
+}
+
+
+.asideContaier ul li {
+    list-style: none;
+
+    border: 1px solid var(--Shade-2);
+    border-radius: 2px;
+    width: 66px;
+    height: 66px;
+    margin: 4px 0px;
+    background-color: var(--bg-color);
+
+
+}
+@media(max-width:1200px){
+    .asideContaier{
+      display: none;
+    }
+}

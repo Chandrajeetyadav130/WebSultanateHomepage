@@ -1,0 +1,51 @@
+.FeaturedContainer {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.featuredBtnGroup {
+    width: 50%;
+    display: flex;
+    /* gap: 10px; */
+}
+
+.featuredBtnGroup button {
+    background-color: var(--Shade-2);
+    font-size: 12px;
+    border-style: none;
+    color: #FFFFFF;
+    width: 87px;
+    height: 43px;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.featuredHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    width: 100%;
+    background-color: var(--Shade-0);
+
+}
+
+.featuredHead {
+    color: #FFFFFF;
+    width: 25%;
+}
+
+.price-dropdown select {
+    background-color: var(--bg-color);
+    color: var(--Shade-6);
+    width: 230px;
+    height: 44px;
+    gap: 8px;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 12px;
+    border: 1px solid #111112;
+}
