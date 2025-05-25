@@ -4,18 +4,20 @@
 }
 
 .featuredBtnGroup {
-    width: 50%;
+    width: 380px;
     display: flex;
-    /* gap: 10px; */
+    gap: 4px;
 }
+.sortByPrice{
+    width: 300px;
 
+}
 .featuredBtnGroup button {
     background-color: var(--Shade-2);
     font-size: 12px;
     border-style: none;
     color: #FFFFFF;
     width: 87px;
-    height: 43px;
     border-radius: 8px;
     padding: 12px;
     gap: 20px;
@@ -25,6 +27,7 @@
 
 .featuredHeader {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px;
@@ -35,7 +38,7 @@
 
 .featuredHead {
     color: #FFFFFF;
-    width: 25%;
+    width: 200px;
 }
 
 .price-dropdown select {
@@ -51,9 +54,11 @@
 }
 @media(max-width:768px){
     .price-dropdown select{
-        width: 80px;
+        width: 127px;
+
     }
     .featuredHeader{
         padding: 0px;
+        gap: 4px;
     }
 }

@@ -3,8 +3,11 @@
   --bg-color: #1A1A20;
   --Shade-6:#676778;
   --Shade-0:#101013;
+  --Shade-7:#A3A3B7;
 }
-
+.homepageBackground{
+  background-color: var(--Shade-0);
+}
 .nav_container {
   display: flex;
   align-items: center;
