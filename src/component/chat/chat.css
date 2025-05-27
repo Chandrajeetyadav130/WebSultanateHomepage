@@ -6,9 +6,9 @@
 .chatMainContaier {
     width: 332px;
     height: 1132px;
-    border: 1px solid gray;
     background-color: var(--bg-color);
     margin-top: 12px;
+    box-shadow:var(--Shade-2) ;
 }
 .chat_msg_container{
     height: 1000px;

@@ -82,7 +82,7 @@ const Header = () => {
           {mobile && (
             <div className="">
               {
-                menuSidebar ? <IoMdClose color='white' size={25} onClick={() => setMenuSidebar(!menuSidebar)} /> : <BsThreeDotsVertical color='white' size={15} onClick={() => setMenuSidebar(!menuSidebar)} />
+                menuSidebar ? <IoMdClose color='white' size={25} onClick={() => setMenuSidebar(!menuSidebar)} /> : <BsThreeDotsVertical color='white' size={25} onClick={() => setMenuSidebar(!menuSidebar)} />
               }
             </div>
 

@@ -6,7 +6,7 @@ const SignupCliam = () => {
     <div className='signupDeal_claim'>
         <div className="signupContent_div">
             <h1>Signup today and claim your free box</h1>
-            <p>Unlock your free box today</p>
+            <p>Unlock your free box today!<br/>Each box is treasure trove of excitement  waiting  to be  discovered.Don't miss out dive into the unknown with us</p>
             <button>Claim now</button>
 
         </div>
