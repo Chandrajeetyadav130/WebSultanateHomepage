@@ -46,6 +46,9 @@
     background-color: var(--Shade--3);
 
 }
+.battleCardContainer{
+    padding: 5px;
+}
 .leftBattleCard img{
     width: 30px;
     height: 35px;
@@ -56,7 +59,7 @@
     background: linear-gradient(to right, #39FF88 0%, #22995200 40%);
     border: 1px solid #39FF88;
     border-radius: 12px;
-    width: 760px;
+    width: 68%;
     height: 81px;
     display: flex;
     flex-wrap: nowrap;
@@ -134,5 +137,6 @@
         width: 38px;
         height: 40px;
     }
- 
+ .individualBattleCard{
+ }
 }
