@@ -4,6 +4,7 @@
   --Shade-6:#676778;
   --Shade-0:#101013;
   --Shade-7:#A3A3B7;
+  --Shade--3:#29292F;
 }
 .homepageBackground{
   background-color: var(--Shade-0);
@@ -197,5 +198,13 @@ color: #FFFFFF;
     .mainCentral{
       width: 100%;
       margin-right: 0px;
+    }
+    .authorizaionBtn{
+      font-size: 10px;
+      width: 66px;
+    }
+    .lang-dropdown select{
+      width: 54px;
+      font-size: 10px;
     }
   }

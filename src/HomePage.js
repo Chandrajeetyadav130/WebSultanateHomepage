@@ -6,6 +6,7 @@ import Chats from './component/chat/Chats'
 import SignupCliam from './component/Claim/SignupCliam'
 import FeaturedCard from './component/Featured/FeaturedCard'
 import FilteredCard from './component/Featured/FilteredCard'
+import BattleCard from './component/battle/BattleCard'
 const HomePage = () => {
   return (
     <div className='homepageBackground'>
@@ -17,6 +18,7 @@ const HomePage = () => {
     <SignupCliam/>
     <FeaturedCard/>
     <FilteredCard/>
+    <BattleCard/>
     </main>
     <Chats/>
     </div>
